@@ -11,7 +11,7 @@ form.addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      "https://6-student-feedback.vercel.app/api/feedback",
+      "https://6-student-feedback.vercel.app/feedback",
       {
         method: "POST",
         headers: {
