@@ -3,7 +3,7 @@ const feedbackList = document.getElementById("feedbackList");
 const getFeedback = async () => {
   try {
     const response = await fetch(
-      "https://6-student-feedback.vercel.app/feedback",
+    "https://6-student-feedback.vercel.app/api/feedback",
     );
 
     const data = await response.json();
