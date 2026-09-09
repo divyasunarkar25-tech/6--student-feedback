@@ -11,7 +11,7 @@ form.addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      "http://localhost:5000/api/feedback",
+      "https://feedback-app-b1y9.onrender.com/api/feedback",
       {
         method: "POST",
         headers: {
