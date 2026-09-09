@@ -1,6 +1,8 @@
 async function loadFeedback() {
   try {
-    const response = await fetch("http://localhost:5000/api/feedback");
+
+
+    const response = await fetch("https://feedback-app-b1y9.onrender.com/api/feedback");
 
     const data = await response.json();
     const feedbacks = data.feedbacks || [];
